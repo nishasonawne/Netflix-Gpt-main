@@ -7,6 +7,7 @@ const MoviesSlice = createSlice({
     youtubekey: null,
     popularMovies:[],
   },
+  
   reducers: {
     addNowPlayingMovies: (state, action) => {
       state.nowPlayingMovies = action.payload;
